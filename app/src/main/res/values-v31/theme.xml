@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FirstStart" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Point 3-->
+        <item name="android:windowSplashScreenBackground">#FFFFFF</item>
+        <!-- Point 2-->
+        <item name="android:windowSplashScreenIconBackgroundColor">#000000</item>
+        <!-- Point 1-->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_baseline_hourglass_bottom_24</item>
+        <item name="android:windowSplashScreenAnimationDuration">10000</item>
+    </style>
+</resources>

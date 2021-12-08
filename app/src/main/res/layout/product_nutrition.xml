@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:view_form="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProductNutritionFactActivity"
+    android:id="@+id/productNutritionFact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        view_form:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="48dp"
+            android:layout_gravity="top"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Repères nutritionnels pour 100g"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/color_fat"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/round_color"/>
+
+            <TextView
+                android:id="@+id/fat"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:layout_margin="10sp"
+                android:layout_marginStart="30dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/color_saturatedFattyAcids"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/round_color"/>
+
+
+            <TextView
+                android:id="@+id/saturatedFattyAcids"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:layout_margin="10sp"
+                android:layout_marginStart="30dp"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/color_sugar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="10sp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/round_color"/>
+            <TextView
+                android:id="@+id/sugar"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:layout_margin="10sp"
+                android:layout_marginStart="30dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/color_salt"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="10sp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/round_color"/>
+
+            <TextView
+                android:id="@+id/salt"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:layout_margin="10sp"
+                android:layout_marginStart="30dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
